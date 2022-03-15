@@ -12,6 +12,8 @@
 		0DF63F1E27E11ADF008A65F3 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		0DF63F2027E11ADF008A65F3 /* scripts.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = scripts.js; sourceTree = "<group>"; };
 		0DF63F2127E11B09008A65F3 /* poems.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = poems.html; sourceTree = "<group>"; };
+		0DF63F2327E11C9E008A65F3 /* essays.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = essays.html; sourceTree = "<group>"; };
+		0DF63F2427E11CC6008A65F3 /* about.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -54,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				0DF63F2127E11B09008A65F3 /* poems.html */,
+				0DF63F2327E11C9E008A65F3 /* essays.html */,
+				0DF63F2427E11CC6008A65F3 /* about.html */,
 			);
 			path = html;
 			sourceTree = "<group>";

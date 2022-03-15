@@ -7,6 +7,24 @@
     box-sizing: border-box;
 }
 
+#top, #bottom, #left, #right {
+    background: #68b21b;
+    position: fixed;
+}
+#left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+}
+#left { left: 0; }
+#right { right: 0; }
+
+#top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+}
+#top { top: 0; }
+#bottom { bottom: 0; }
+
 nav{
     overflow: hidden;
     padding: 20px 10px; /* Large padding which will shrink on scroll (using JS) */
@@ -19,8 +37,8 @@ nav{
     z-index: 99;
     font-family: 'Fredoka', sans-serif;
     background-color: #68b21b;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 .logo{
     transition: 0.4s;
@@ -57,5 +75,14 @@ nav-right {
   nav-right {
     float: none;
   }
+}
+
+#text {
+    background-color: white;
+    padding: 40px 50px;
+    margin: 0 auto;
+    width: 80%;
+    text-align: middle;
+    border-radius: 20px;
 }
 

@@ -1650,14 +1650,6 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#footer {
-				padding: 3em 1.5em 1em 1.5em ;
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			#footer {
 				padding: 2.5em 1em 0.5em 1em ;
 			}
 
@@ -1697,6 +1689,7 @@ input, select, textarea {
     background-color: #FAfAfA;
 }
 .gridwrapper{
+    position: flex;
     inline-size:min-content;
     margin: auto;
     display: grid;
@@ -1782,10 +1775,6 @@ input, select, textarea {
 @media screen and (max-width: 980px) {
     
     .gridwrapper{
-        inline-size:min-content;
-        margin: auto;
-        background-color: #FAFAFA;
-        display: grid;
         grid-template-columns: 200px 200px;
         grid-template-rows: 300px 300px 300px 300px;
         grid-gap: 2.5em;
@@ -1828,18 +1817,16 @@ input, select, textarea {
       grid-column: 1;
       grid-row: 5;
     }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 630px) {
         
         .gridwrapper{
-            inline-size:min-content;
-            margin: auto;
-            background-color: #FAFAFA;
-            display: grid;
             grid-template-columns: 200px;
             grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px;
             grid-gap: 2.5em;
         }
-        
+        .modal-dialog{
+            top: 20px;
+        }
         .one {
           grid-column: 1;
           grid-row: 1;

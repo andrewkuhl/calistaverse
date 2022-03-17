@@ -1705,6 +1705,15 @@ input, select, textarea {
     grid-template-rows: 300px 300px 300px;
     grid-gap: 2.5em;
 }
+#paper{
+    cursor:pointer;
+    background-color: #D9D9D9;
+    padding: 1px;
+}
+.popup:hover{
+    height: 220px;
+    width: 170.5px;
+}
 .one {
   grid-column: 1;
   grid-row: 1;

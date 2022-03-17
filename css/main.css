@@ -2496,6 +2496,7 @@ input, select, textarea {
         #header.other {
             font-size: 1.25em;
             padding: 50px 0px 20px 0px;
+            font-family: 'Playfair Display', serif;
         }
 		#header.alt {
 			padding: 7em 5em 4em 5em ;
@@ -2585,17 +2586,6 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
-
-			#header {
-				padding: 3em 1.5em 0.1em 1.5em ;
-			}
-
-				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
-				}
-
-		}
 
 		@media screen and (max-width: 360px) {
 
@@ -2731,7 +2721,12 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
+            @media screen and (max-width: 480px) {
 
+                #nav{
+                    max-width: calc(100% - 2em);
+                }
+            }
 
 /* Main */
 
@@ -2739,6 +2734,7 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		border-radius: 0.25em;
+        font-family: 'Playfair Display', serif;
 	}
 
 		#main input, #main select, #main textarea {
@@ -3030,18 +3026,6 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
-
-			#main > .main {
-				padding: 10em 1.5em 1em 1.5em ;
-			}
-
-				#main > .main > .image.main:first-child {
-					margin: -3em 0 1.5em -1.5em;
-					width: calc(100% + 3em);
-				}
-
-		}
 
 		@media screen and (max-width: 360px) {
 

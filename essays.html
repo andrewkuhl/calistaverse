@@ -5,7 +5,9 @@
         <title>calistaverse</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="css/main.css" />
+
     </head>
     <body class="is-preload">
 
@@ -28,68 +30,89 @@
                             <li><a href="about.html">About</a></li>
                         </ul>
                     </nav>
-
+                    
                 <!-- Main -->
                     <div id="main">
 
                         <!-- Introduction -->
                             <section id="intro" class="main">
-                                <div class="spotlight">
-                                    <div class="content">
+                                        
                                         <header class="major">
                                             <h2>Essays</h2>
                                         </header>
-                                        
+                            
                                 <div class = "wrapwrap">
-                                    <div class = "gridwrapper">
+                                    <div id = "gallery" class = "gridwrapper">
                                         <div class="one">
-                                            <img id = "paper" class="popup" src="papers/paper1.png" height="200" width="155"/>
+                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
                                             <p class = "titles">paper one: a good paper</p>
                                         </div>
                                         <div class="two">
-                                            <img id = "paper" class="popup" src="papers/paper1.png" height="200" width="155"/>
+                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
                                             <p class = "titles">paper two: a good paper</p>
                                         </div>
                                         <div class="three">
-                                            <img id = "paper" class="popup" src="papers/paper1.png" height="200" width="155"/>
+                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
                                             <p class = "titles">paper three: a good paper</p>
                                         </div>
                                         <div class="four">
-                                            <img id = "paper" class="popup" src="papers/paper1.png" height="200" width="155"/>
+                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
                                             <p class = "titles">paper four: a good paper really good infact this one is my favorite</p>
                                         </div>
                                         <div class="five">
-                                            <img id = "paper" class="popup" src="papers/paper1.png" height="200" width="155"/>
+                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
                                             <p class = "titles">paper five: a good paper</p>
                                         </div>
                                         <div class="six">
-                                            <img id = "paper" class="popup" src="papers/paper1.png" height="200" width="155"/>
+                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
                                             <p class = "titles">paper six: a good paper</p>
                                         </div>
                                         <div class="seven">
-                                            <img id = "paper" class="popup" src="papers/paper1.png" height="200" width="155"/>
+                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
                                             <p class = "titles">paper seven: a good paper</p>
                                         </div>
                                         <div class="eight">
-                                            <img id = "paper" class="popup" src="papers/paper1.png" height="200" width="155"/>
+                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
                                             <p class = "titles">paper eight: a good paper</p>
                                         </div>
                                         <div class="nine">
-                                            <img id = "paper" class="popup" src="papers/paper1.png" height="200" width="155"/></a>
+                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
                                             <p class = "titles">paper nine: a good paper</p>
                                         </div>
                                         
-                                        
+                                        <!-- .modal -->
+                                        <div class="modal fade" id="Mymodal">
+                                            <div class="modal-dialog modal-lg">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">×</button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <object id = "pdf" data="papers/paper1.pdf" width="100%" height="100%">
+                                                        </object>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                    </div>
+                                    
                                 </div>
-                                   
                                    
                                    
                                    
                             </section>
 
 
-                
+                        
                     </div>
 
                 <!-- Footer -->
@@ -97,9 +120,11 @@
                         <p class="copyright">written with love by andrew kuhl 2022</p>
                     </footer>
 
-            </div>
-
+              
+        </div>
+                    
         <!-- Scripts -->
+            
             <script src="js/jquery.min.js"></script>
             <script src="js/jquery.scrollex.min.js"></script>
             <script src="js/jquery.scrolly.min.js"></script>
@@ -107,6 +132,10 @@
             <script src="js/breakpoints.min.js"></script>
             <script src="js/util.js"></script>
             <script src="js/main.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script src="js/pdfviewer.js"></script>
 
     </body>
 </html>

@@ -3033,7 +3033,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main > .main {
-				padding: 7em 2em 1em 2em ;
+				padding: 10em 2em 1em 2em ;
 			}
 
 				#main > .main > .image.main:first-child {

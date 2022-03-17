@@ -21,12 +21,22 @@
 		0DF63F3927E2C0DB008A65F3 /* poetry.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = poetry.html; sourceTree = "<group>"; };
 		0DF63F3A27E2C0DB008A65F3 /* essays.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = essays.html; sourceTree = "<group>"; };
 		0DF63F3C27E2C984008A65F3 /* man.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = man.gif; sourceTree = "<group>"; };
+		0DF63F4027E2FA79008A65F3 /* paper6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper6.pdf; sourceTree = "<group>"; };
+		0DF63F4127E2FA79008A65F3 /* paper7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper7.pdf; sourceTree = "<group>"; };
+		0DF63F4227E2FA79008A65F3 /* paper5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper5.pdf; sourceTree = "<group>"; };
+		0DF63F4327E2FA79008A65F3 /* paper4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper4.pdf; sourceTree = "<group>"; };
+		0DF63F4427E2FA79008A65F3 /* paper1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper1.pdf; sourceTree = "<group>"; };
+		0DF63F4527E2FA79008A65F3 /* paper3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper3.pdf; sourceTree = "<group>"; };
+		0DF63F4627E2FA79008A65F3 /* paper2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper2.pdf; sourceTree = "<group>"; };
+		0DF63F4727E2FA79008A65F3 /* paper9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper9.pdf; sourceTree = "<group>"; };
+		0DF63F4827E2FA79008A65F3 /* paper8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper8.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		0DF63F1227E11383008A65F3 = {
 			isa = PBXGroup;
 			children = (
+				0DF63F3F27E2FA79008A65F3 /* papers */,
 				0DF63F1E27E11ADF008A65F3 /* index.html */,
 				0DF63F3A27E2C0DB008A65F3 /* essays.html */,
 				0DF63F3927E2C0DB008A65F3 /* poetry.html */,
@@ -66,6 +76,22 @@
 				0DF63F3C27E2C984008A65F3 /* man.gif */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		0DF63F3F27E2FA79008A65F3 /* papers */ = {
+			isa = PBXGroup;
+			children = (
+				0DF63F4027E2FA79008A65F3 /* paper6.pdf */,
+				0DF63F4127E2FA79008A65F3 /* paper7.pdf */,
+				0DF63F4227E2FA79008A65F3 /* paper5.pdf */,
+				0DF63F4327E2FA79008A65F3 /* paper4.pdf */,
+				0DF63F4427E2FA79008A65F3 /* paper1.pdf */,
+				0DF63F4527E2FA79008A65F3 /* paper3.pdf */,
+				0DF63F4627E2FA79008A65F3 /* paper2.pdf */,
+				0DF63F4727E2FA79008A65F3 /* paper9.pdf */,
+				0DF63F4827E2FA79008A65F3 /* paper8.pdf */,
+			);
+			path = papers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

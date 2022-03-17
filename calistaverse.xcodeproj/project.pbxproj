@@ -10,6 +10,8 @@
 		0D11444527E3233600F6F94B /* paper1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper1.png; sourceTree = "<group>"; };
 		0D11444627E3849300F6F94B /* pdfviewer.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = pdfviewer.js; sourceTree = "<group>"; };
 		0D11444727E39AED00F6F94B /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		0D11444927E3C14F00F6F94B /* man.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = man.gif; sourceTree = "<group>"; };
+		0D11444A27E3C14F00F6F94B /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		0DF63F1E27E11ADF008A65F3 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		0DF63F2C27E2C0DB008A65F3 /* artwork.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = artwork.html; sourceTree = "<group>"; };
 		0DF63F2E27E2C0DB008A65F3 /* main.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
@@ -23,7 +25,6 @@
 		0DF63F3827E2C0DB008A65F3 /* about.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
 		0DF63F3927E2C0DB008A65F3 /* poetry.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = poetry.html; sourceTree = "<group>"; };
 		0DF63F3A27E2C0DB008A65F3 /* essays.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = essays.html; sourceTree = "<group>"; };
-		0DF63F3C27E2C984008A65F3 /* man.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = man.gif; sourceTree = "<group>"; };
 		0DF63F4027E2FA79008A65F3 /* paper6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper6.pdf; sourceTree = "<group>"; };
 		0DF63F4127E2FA79008A65F3 /* paper7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper7.pdf; sourceTree = "<group>"; };
 		0DF63F4227E2FA79008A65F3 /* paper5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = paper5.pdf; sourceTree = "<group>"; };
@@ -36,9 +37,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		0D11444827E3C14F00F6F94B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0D11444927E3C14F00F6F94B /* man.gif */,
+				0D11444A27E3C14F00F6F94B /* close.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		0DF63F1227E11383008A65F3 = {
 			isa = PBXGroup;
 			children = (
+				0D11444827E3C14F00F6F94B /* images */,
 				0D11444727E39AED00F6F94B /* test.html */,
 				0DF63F3F27E2FA79008A65F3 /* papers */,
 				0DF63F1E27E11ADF008A65F3 /* index.html */,
@@ -46,7 +57,6 @@
 				0DF63F3927E2C0DB008A65F3 /* poetry.html */,
 				0DF63F2C27E2C0DB008A65F3 /* artwork.html */,
 				0DF63F3827E2C0DB008A65F3 /* about.html */,
-				0DF63F3B27E2C984008A65F3 /* images */,
 				0DF63F2D27E2C0DB008A65F3 /* css */,
 				0DF63F3027E2C0DB008A65F3 /* js */,
 			);
@@ -73,14 +83,6 @@
 				0D11444627E3849300F6F94B /* pdfviewer.js */,
 			);
 			path = js;
-			sourceTree = "<group>";
-		};
-		0DF63F3B27E2C984008A65F3 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				0DF63F3C27E2C984008A65F3 /* man.gif */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 		0DF63F3F27E2FA79008A65F3 /* papers */ = {

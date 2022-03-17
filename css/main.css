@@ -2484,16 +2484,19 @@ input, select, textarea {
 		text-align: center;
 		
 	}
-
+    
 		#header h1 {
-			margin: 0 0 0.25em 0;
+			margin: 0 0 0 0;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
 		}
-
+        #header.other {
+            font-size: 1.25em;
+            padding: 50px 0px 20px 0px;
+        }
 		#header.alt {
 			padding: 7em 5em 4em 5em ;
 		}
@@ -2630,7 +2633,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #f4f4f4;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -2654,16 +2657,16 @@ input, select, textarea {
 		}
 
 		#nav blockquote {
-			border-left-color: #dddddd;
+			border-left-color: #F1F1F1;
 		}
 
 		#nav code {
 			background: rgba(222, 222, 222, 0.25);
-			border-color: #dddddd;
+			border-color: #F1F1F1;
 		}
 
 		#nav hr {
-			border-bottom-color: #dddddd;
+			border-bottom-color: #F1F1F1;
 		}
 
 		#nav + #main {
@@ -2702,11 +2705,11 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(222, 222, 222, 0.25);
+						background-color: #CAE5C1;
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
+						background-color: #C4F5B4;
 						box-shadow: none;
 					}
 
@@ -2714,7 +2717,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: #F1F1F1;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
@@ -2951,14 +2954,6 @@ input, select, textarea {
 
 		#main dl dt {
 			color: #636363;
-		}
-
-		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 		}
 
 		#main table tbody tr {

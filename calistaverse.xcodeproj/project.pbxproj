@@ -20,6 +20,7 @@
 		0DF63F3827E2C0DB008A65F3 /* about.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
 		0DF63F3927E2C0DB008A65F3 /* poetry.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = poetry.html; sourceTree = "<group>"; };
 		0DF63F3A27E2C0DB008A65F3 /* essays.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = essays.html; sourceTree = "<group>"; };
+		0DF63F3C27E2C984008A65F3 /* man.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = man.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -31,8 +32,8 @@
 				0DF63F3927E2C0DB008A65F3 /* poetry.html */,
 				0DF63F2C27E2C0DB008A65F3 /* artwork.html */,
 				0DF63F3827E2C0DB008A65F3 /* about.html */,
+				0DF63F3B27E2C984008A65F3 /* images */,
 				0DF63F2D27E2C0DB008A65F3 /* css */,
-				0DF63F2F27E2C0DB008A65F3 /* images */,
 				0DF63F3027E2C0DB008A65F3 /* js */,
 			);
 			sourceTree = "<group>";
@@ -43,13 +44,6 @@
 				0DF63F2E27E2C0DB008A65F3 /* main.css */,
 			);
 			path = css;
-			sourceTree = "<group>";
-		};
-		0DF63F2F27E2C0DB008A65F3 /* images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 		0DF63F3027E2C0DB008A65F3 /* js */ = {
@@ -64,6 +58,14 @@
 				0DF63F3727E2C0DB008A65F3 /* browser.min.js */,
 			);
 			path = js;
+			sourceTree = "<group>";
+		};
+		0DF63F3B27E2C984008A65F3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0DF63F3C27E2C984008A65F3 /* man.gif */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

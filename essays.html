@@ -43,52 +43,51 @@
                                 <div class = "wrapwrap">
                                     <div id = "gallery" class = "gridwrapper">
                                         <div class="one">
-                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            <object name = "pap1" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
                                             </object>
                                             <p class = "titles">paper one: a good paper</p>
                                         </div>
                                         <div class="two">
-                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            <object name = "pap2" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
                                             </object>
                                             <p class = "titles">paper two: a good paper</p>
                                         </div>
                                         <div class="three">
-                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            <object name = "pap3" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
                                             </object>
                                             <p class = "titles">paper three: a good paper</p>
                                         </div>
                                         <div class="four">
-                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            <object name = "pap4" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
                                             </object>
                                             <p class = "titles">paper four: a good paper really good infact this one is my favorite</p>
                                         </div>
                                         <div class="five">
-                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            <object name = "pap5" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
                                             </object>
                                             <p class = "titles">paper five: a good paper</p>
                                         </div>
                                         <div class="six">
-                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            <object name = "pap6" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
                                             </object>
                                             <p class = "titles">paper six: a good paper</p>
                                         </div>
                                         <div class="seven">
-                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            <object name = "pap7" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
                                             </object>
                                             <p class = "titles">paper seven: a good paper</p>
                                         </div>
                                         <div class="eight">
-                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            <object name = "pap8" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
                                             </object>
                                             <p class = "titles">paper eight: a good paper</p>
                                         </div>
                                         <div class="nine">
-                                            <object id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            <object name = "pap9" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
                                             </object>
                                             <p class = "titles">paper nine: a good paper</p>
                                         </div>
                                         
-                                        <!-- .modal -->
                                         <div class="modal fade" id="Mymodal">
                                             <div class="modal-dialog modal-lg">
                                                 <div class="modal-content">
@@ -96,7 +95,7 @@
                                                 <button type="button" class="close" data-dismiss="modal" class="button-solid"><img src = "images/close.png" width = "20px" height = "20px"/></button>
                                             </div>
                                                     <div class="modal-body">
-                                                        <object id = "pdf" data="papers/paper1.pdf" width="100%" height="100%">
+                                                        <object class = "modalpdf" data="papers/paper1.pdf" width="100%" height="100%">
                                                         </object>
                                                     </div>
                                                     <!-- Modal footer -->
@@ -104,6 +103,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        
                                    </div>
                                     
                                 </div>
@@ -123,7 +123,19 @@
 
               
         </div>
-                    
+            
+            
+        <div class = "pdfs">
+            <object name = "pap1" data="papers/paper1.pdf" height = "0" width = "0"></object>
+            <object name = "pap2" data="papers/paper2.pdf" height = "0" width = "0"></object>
+            <object name = "pap3" data="papers/paper3.pdf" height = "0" width = "0"></object>
+            <object name = "pap4" data="papers/paper4.pdf" height = "0" width = "0"></object>
+            <object name = "pap5" data="papers/paper5.pdf" height = "0" width = "0"></object>
+            <object name = "pap6" data="papers/paper6.pdf" height = "0" width = "0"></object>
+            <object name = "pap7" data="papers/paper7.pdf" height = "0" width = "0"></object>
+            <object name = "pap8" data="papers/paper8.pdf" height = "0" width = "0"></object>
+            <object name = "pap9" data="papers/paper9.pdf" height = "0" width = "0"></object>
+        </div>
         <!-- Scripts -->
             
             <script src="js/jquery.min.js"></script>

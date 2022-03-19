@@ -1781,6 +1781,7 @@ input, select, textarea {
       grid-column: 1;
       grid-row: 5;
     }
+}
     @media screen and (max-width: 630px) {
         
         .gridwrapper{
@@ -1828,13 +1829,26 @@ input, select, textarea {
           grid-column: 1;
           grid-row: 9;
         }
-
+    }
   /* png grid*/
-  .images {
-      display: grid;
-      grid-template-row: 1fr 1fr;
-      gap: 50px;
+  .imgcontainer {
+      top 
+      height: auto;
+      width: calc(95%);
+      margin: 0 auto;
+      display:grid;
+      grid-template-columns: repeat(2, auto);
   }
-  .images img{
-      
+  .griditem {
+      width: cover;
   }
+.griditem > img {
+    object-fit: cover;
+    width: 100%;
+}
+.img3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+  

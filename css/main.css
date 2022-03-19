@@ -1681,7 +1681,7 @@ input, select, textarea {
 
 /* pdf grid */
 .wrapwrap{
-    padding: 100px 0;
+    padding: 25px 0;
     max-width: calc(100%);
     max-height: calc(100%);
     margin: 0 auto;
@@ -1832,7 +1832,7 @@ input, select, textarea {
     }
   /* png grid*/
   .imgcontainer {
-      top 
+      top
       height: auto;
       width: calc(95%);
       margin: 0 auto;

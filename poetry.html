@@ -1,11 +1,12 @@
 <!DOCTYPE HTML>
-
 <html>
     <head>
         <title>calistaverse</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="css/main.css" />
+
     </head>
     <body class="is-preload">
 
@@ -13,47 +14,104 @@
             <div id="wrapper">
 
                 <!-- Header -->
-                    <header id="header" class="other">
-                        <h1 style="color:#000000">Calista Santiago<br/></h1>
-                    </header>
-
+                
+                <header id="header" class="other">
+                    <h1 style="color:#000000">Calista Santiago<br/></h1>
+                </header>
+                
                 <!-- Nav -->
                     <nav id="nav">
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="essays.html">Essays</a></li>
-                            <li><a href="poetry.html" class="active">Poetry</a></li>
+                            <li><a href="poetry.html"class="active">Poetry</a></li>
                             <li><a href="artwork.html">Artwork</a></li>
                             <li><a href="about.html">About</a></li>
                         </ul>
                     </nav>
-
+                    
                 <!-- Main -->
                     <div id="main">
 
                         <!-- Introduction -->
                             <section id="intro" class="main">
-                                <div class="spotlight">
-                                    <div class="content">
+                                        
                                         <header class="major">
                                             <h2>Poetry</h2>
                                         </header>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p><p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
-                                        <p>Shes so well spoken her poems are amazing!@</p>
+                            
+                                <div class = "wrapwrap">
+                                    <div id = "gallery" class = "gridwrapper">
+                                        <div class="one">
+                                            <object name = "pap1" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
+                                            <p class = "titles">poem one: a good poem</p>
+                                        </div>
+                                        <div class="two">
+                                            <object name = "pap2" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
+                                            <p class = "titles">poem two: a good poem</p>
+                                        </div>
+                                        <div class="three">
+                                            <object name = "pap3" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
+                                            <p class = "titles">paper poem: a good poem</p>
+                                        </div>
+                                        <div class="four">
+                                            <object name = "pap4" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
+                                            <p class = "titles">poem four: a good poem really good infact this one is my favorite</p>
+                                        </div>
+                                        <div class="five">
+                                            <object name = "pap5" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
+                                            <p class = "titles">poem five: a good poem</p>
+                                        </div>
+                                        <div class="six">
+                                            <object name = "pap6" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
+                                            <p class = "titles">poem six: a good poem</p>
+                                        </div>
+                                        <div class="seven">
+                                            <object name = "pap7" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
+                                            <p class = "titles">poem seven: a good poem</p>
+                                        </div>
+                                        <div class="eight">
+                                            <object name = "pap8" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
+                                            <p class = "titles">poem eight: a good poem</p>
+                                        </div>
+                                        <div class="nine">
+                                            <object name = "pap9" id = "paper" class = "popup" data="papers/paper1.png" height="200" width="155">
+                                            </object>
+                                            <p class = "titles">poem nine: a good poem</p>
+                                        </div>
                                         
+                                        <div class="modal fade" id="Mymodal">
+                                            <div class="modal-dialog modal-lg">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" class="button-solid"><img src = "images/close.png" width = "20px" height = "20px"/></button>
+                                            </div>
+                                                    <div class="modal-body">
+                                                        <object class = "modalpdf" width="100%" height="100%">
+                                                        </object>
+                                                    </div>
+                                                    <!-- Modal footer -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                   </div>
+                                    
+                                </div>
+                                   
+                                   
+                                   
                             </section>
+
 
                         
                     </div>
@@ -63,9 +121,23 @@
                         <p class="copyright">written with love by andrew kuhl 2022</p>
                     </footer>
 
-            </div>
-
+              
+        </div>
+            
+            
+        <div class = "pdfs">
+            <object name = "pap1" data="papers/paper1.pdf" height = "0" width = "0"></object>
+            <object name = "pap2" data="papers/paper2.pdf" height = "0" width = "0"></object>
+            <object name = "pap3" data="papers/paper3.pdf" height = "0" width = "0"></object>
+            <object name = "pap4" data="papers/paper4.pdf" height = "0" width = "0"></object>
+            <object name = "pap5" data="papers/paper5.pdf" height = "0" width = "0"></object>
+            <object name = "pap6" data="papers/paper6.pdf" height = "0" width = "0"></object>
+            <object name = "pap7" data="papers/paper7.pdf" height = "0" width = "0"></object>
+            <object name = "pap8" data="papers/paper8.pdf" height = "0" width = "0"></object>
+            <object name = "pap9" data="papers/paper9.pdf" height = "0" width = "0"></object>
+        </div>
         <!-- Scripts -->
+            
             <script src="js/jquery.min.js"></script>
             <script src="js/jquery.scrollex.min.js"></script>
             <script src="js/jquery.scrolly.min.js"></script>
@@ -73,6 +145,12 @@
             <script src="js/breakpoints.min.js"></script>
             <script src="js/util.js"></script>
             <script src="js/main.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script src="js/pdfviewer.js"></script>
 
     </body>
 </html>
+
+

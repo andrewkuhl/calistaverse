@@ -1829,4 +1829,12 @@ input, select, textarea {
           grid-row: 9;
         }
 
-  
+  /* png grid*/
+  .images {
+      display: grid;
+      grid-template-row: 1fr 1fr;
+      gap: 50px;
+  }
+  .images img{
+      
+  }

@@ -1011,7 +1011,11 @@ input, select, textarea {
 	}
 
 /* Header */
-
+.title{
+	padding:0;
+	margin: -60px auto auto auto;
+	text-align: center;
+}
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
@@ -1687,6 +1691,9 @@ input, select, textarea {
     margin: 0 auto;
     text-align: center;
     background-color: #FAfAfA;
+	border-radius: 5px;
+	box-shadow: inset 0px -6px 10px 1px;
+    padding:10px;
 }
 .gridwrapper{
     position: flex;
@@ -1707,9 +1714,10 @@ input, select, textarea {
 }
 
 .popup:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    opacity: 0.7;
+	cursor: pointer;
+    transform:scale(1.025);
+    transition: all 0.1s ease;
+    box-shadow: 0 13px 5px -10px  rgba(0,0,0,.3)!important;
 }
 
 .modal {
@@ -1832,7 +1840,6 @@ input, select, textarea {
     }
   /* png grid*/
   .imgcontainer {
-      top
       height: auto;
       width: calc(95%);
       margin: 0 auto;
